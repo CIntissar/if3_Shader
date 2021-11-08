@@ -1162,7 +1162,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "45bfe44b090d4860a68dc92b88bfb189",
     "m_Id": 0,
-    "m_DisplayName": "SpeedHologram",
+    "m_DisplayName": "ScrollingSpeed",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
