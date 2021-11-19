@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1900505886112516729
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 4
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
-  m_Shader: {fileID: -6465566751694194690, guid: 85dc8588d0f7d5947ae78443992e0b46, type: 3}
+  m_Name: waterComplex
+  m_Shader: {fileID: -6465566751694194690, guid: b854d4a40d2bc0a40b306996967e5b19, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -89,7 +76,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_ec1978ba26b4409192ec54837e1badbc: 0.5
+    - Vector1_6893bbd827d94e7da233f988ac914965: 0.5
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -117,8 +104,27 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_00f523dad87f419f8bb8cf94523a41c3: {r: 0.15490386, g: 0.32784796, b: 0.5566037, a: 0}
+    - Color_857f4577c38247f28f6ed1d71d90003f: {r: 0.22677106, g: 0.7753971, b: 0.9811321, a: 0}
+    - Color_9e093012867c45ddb5b6c21ec94bd0d4: {r: 0.539, g: 0.95706207, b: 1, a: 0}
+    - Color_eb30df72f9f8491ab5986138c27950c1: {r: 0.6874791, g: 0.5529412, b: 0.9529412, a: 0}
+    - Vector2_321b8d4d57e44779947f561749ff6821: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_7a3dd50dfc8d4756b58d84739dd00b7c: {r: -5, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &7563389375337604691
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
